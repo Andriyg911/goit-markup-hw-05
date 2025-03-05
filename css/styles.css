@@ -581,6 +581,7 @@ body {
   opacity: 0;
   pointer-events: none;
   transition-propetry: vissbslity, opacity, pointer-events;
+  margin-bottom: 16px;
 }
 .backdrop.is-open {
   vissbslity: visible;
@@ -629,6 +630,7 @@ body {
   /* stroke: #fff; */
   background-color: #404bbf;
   fill: #ffffff;
+  border: none;
 }
 .close-bth-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -645,8 +647,7 @@ body {
 .modal-form {
 }
 .modal-container-blok {
-  margin-bottom: 18px;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-form-input-cont {
@@ -660,12 +661,16 @@ body {
   height: 38px;
   padding-left: 38px;
   outline: transparent;
+  height: 40px;
+  background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-input:hover,
 .modal-form-input:focus + .modal-form-icon {
   border-color: #4d5ae5;
   border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #4d5ae5;
+  border-color: #4d5ae5;
 }
 
 .modal-form-icon {
@@ -701,6 +706,7 @@ body {
   line-height: 1.17;
   display: block;
   margin-bottom: 4px;
+  line-height: 1.17;
 }
 .textarea {
   width: 100%;
