@@ -672,6 +672,9 @@ body {
   border-color: #4d5ae5;
   fill: #4d5ae5;
 }
+.modal-form-input:focus {
+  border-color: #4d5ae5;
+}
 
 .modal-form-icon {
   position: absolute;
@@ -697,6 +700,9 @@ body {
   min-height: 120px;
   padding-left: 38px;
   outline: transparent;
+}
+.modal-container-blok-k {
+  margin-bottom: 16px;
 }
 .modal-form-label {
   font-weight: 400;
